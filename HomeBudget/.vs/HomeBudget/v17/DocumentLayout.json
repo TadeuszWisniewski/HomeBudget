@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|c:\\users\\wisni\\onedrive\\desktop\\inzynierski\\homebudget\\homebudget\\homebudget.api\\data\\homebudgetdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|solutionrelative:homebudget.api\\data\\homebudgetdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|c:\\users\\wisni\\onedrive\\desktop\\inzynierski\\homebudget\\homebudget\\homebudget.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|solutionrelative:homebudget.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Program.cs",
+              "RelativeDocumentMoniker": "HomeBudget.API\\Program.cs",
+              "ToolTip": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Program.cs",
+              "RelativeToolTip": "HomeBudget.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:47:18.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeBudgetDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Data\\HomeBudgetDbContext.cs",
+              "RelativeDocumentMoniker": "HomeBudget.API\\Data\\HomeBudgetDbContext.cs",
+              "ToolTip": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Data\\HomeBudgetDbContext.cs",
+              "RelativeToolTip": "HomeBudget.API\\Data\\HomeBudgetDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:37:11.656Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
