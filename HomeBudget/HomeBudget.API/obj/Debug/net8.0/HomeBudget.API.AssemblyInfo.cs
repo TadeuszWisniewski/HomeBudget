@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HomeBudget.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+251da10d7ec1f3ed7709942eaca5532c75fe80a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0a67f3bca1f3bda6949239bf913b53472e3ff6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("HomeBudget.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HomeBudget.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
