@@ -258,7 +258,7 @@ namespace HomeBudget.API.Migrations
                     b.ToTable("BudgetTypes");
                 });
 
-            modelBuilder.Entity("HomeBudget.API.Models.Domain.Currency", b =>
+            modelBuilder.Entity("HomeBudget.API.Models.Domain.Currencies.Currency", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -679,7 +679,7 @@ namespace HomeBudget.API.Migrations
 
             modelBuilder.Entity("HomeBudget.API.Models.Domain.Accounts.Account", b =>
                 {
-                    b.HasOne("HomeBudget.API.Models.Domain.Currency", "Currency")
+                    b.HasOne("HomeBudget.API.Models.Domain.Currencies.Currency", "Currency")
                         .WithMany("Accounts")
                         .HasForeignKey("CurrencyId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -690,7 +690,7 @@ namespace HomeBudget.API.Migrations
 
             modelBuilder.Entity("HomeBudget.API.Models.Domain.Accounts.Transfer", b =>
                 {
-                    b.HasOne("HomeBudget.API.Models.Domain.Currency", "Currency")
+                    b.HasOne("HomeBudget.API.Models.Domain.Currencies.Currency", "Currency")
                         .WithMany("Transfers")
                         .HasForeignKey("CurrencyId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -719,7 +719,7 @@ namespace HomeBudget.API.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("HomeBudget.API.Models.Domain.Currency", "Currency")
+                    b.HasOne("HomeBudget.API.Models.Domain.Currencies.Currency", "Currency")
                         .WithMany()
                         .HasForeignKey("CurrencyId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -740,7 +740,7 @@ namespace HomeBudget.API.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("HomeBudget.API.Models.Domain.Currency", "Currency")
+                    b.HasOne("HomeBudget.API.Models.Domain.Currencies.Currency", "Currency")
                         .WithMany("Debts")
                         .HasForeignKey("CurrencyId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -753,7 +753,7 @@ namespace HomeBudget.API.Migrations
 
             modelBuilder.Entity("HomeBudget.API.Models.Domain.Expenses.Expense", b =>
                 {
-                    b.HasOne("HomeBudget.API.Models.Domain.Currency", "Currency")
+                    b.HasOne("HomeBudget.API.Models.Domain.Currencies.Currency", "Currency")
                         .WithMany("Expenses")
                         .HasForeignKey("CurrencyId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -775,7 +775,7 @@ namespace HomeBudget.API.Migrations
 
             modelBuilder.Entity("HomeBudget.API.Models.Domain.Incomes.Income", b =>
                 {
-                    b.HasOne("HomeBudget.API.Models.Domain.Currency", "Currency")
+                    b.HasOne("HomeBudget.API.Models.Domain.Currencies.Currency", "Currency")
                         .WithMany("Incomes")
                         .HasForeignKey("CurrencyId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -888,7 +888,7 @@ namespace HomeBudget.API.Migrations
                     b.Navigation("Budgets");
                 });
 
-            modelBuilder.Entity("HomeBudget.API.Models.Domain.Currency", b =>
+            modelBuilder.Entity("HomeBudget.API.Models.Domain.Currencies.Currency", b =>
                 {
                     b.Navigation("Accounts");
 

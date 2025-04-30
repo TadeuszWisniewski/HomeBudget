@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeBudget.API", "HomeBudget.API\HomeBudget.API.csproj", "{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Tests", "Repository.Tests\Repository.Tests.csproj", "{69F8702C-E323-40F3-8507-5E1465C7C835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F8702C-E323-40F3-8507-5E1465C7C835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F8702C-E323-40F3-8507-5E1465C7C835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F8702C-E323-40F3-8507-5E1465C7C835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F8702C-E323-40F3-8507-5E1465C7C835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

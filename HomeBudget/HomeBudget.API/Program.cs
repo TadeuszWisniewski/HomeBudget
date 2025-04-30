@@ -1,5 +1,7 @@
 
 using HomeBudget.API.Data;
+using HomeBudget.API.Models.Domain.Users;
+using HomeBudget.API.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace HomeBudget.API
@@ -19,6 +21,8 @@ namespace HomeBudget.API
 
             builder.Services.AddDbContext<HomeBudgetDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("HomeBudgetConnectionString")));
+
+            builder.Services.AddScoped<IRepository<UserType>, SQLUserTypesRepository>();
 
             var app = builder.Build();
 
