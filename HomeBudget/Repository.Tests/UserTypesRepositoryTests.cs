@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using HomeBudget.API.Data;
 using HomeBudget.API.Models.Domain.Users;
 using HomeBudget.API.Repositories;
+using HomeBudget.API.Repositories.UserRepositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace Repository.Tests

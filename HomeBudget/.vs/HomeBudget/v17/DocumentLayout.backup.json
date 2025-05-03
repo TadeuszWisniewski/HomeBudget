@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|c:\\users\\wisni\\onedrive\\desktop\\inzynierski\\homebudget\\homebudget\\homebudget.api\\repositories\\sqlusertypesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|solutionrelative:homebudget.api\\repositories\\sqlusertypesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|c:\\users\\wisni\\onedrive\\desktop\\inzynierski\\homebudget\\homebudget\\homebudget.api\\repositories\\debtsrepositories\\sqldebtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|solutionrelative:homebudget.api\\repositories\\debtsrepositories\\sqldebtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F8702C-E323-40F3-8507-5E1465C7C835}|Repository.Tests\\Repository.Tests.csproj|c:\\users\\wisni\\onedrive\\desktop\\inzynierski\\homebudget\\homebudget\\repository.tests\\usertypesrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F8702C-E323-40F3-8507-5E1465C7C835}|Repository.Tests\\Repository.Tests.csproj|solutionrelative:repository.tests\\usertypesrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|c:\\users\\wisni\\onedrive\\desktop\\inzynierski\\homebudget\\homebudget\\homebudget.api\\repositories\\accountrepositories\\sqlaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|solutionrelative:homebudget.api\\repositories\\accountrepositories\\sqlaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|c:\\users\\wisni\\onedrive\\desktop\\inzynierski\\homebudget\\homebudget\\homebudget.api\\controllers\\usertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|solutionrelative:homebudget.api\\controllers\\usertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|c:\\users\\wisni\\onedrive\\desktop\\inzynierski\\homebudget\\homebudget\\homebudget.api\\repositories\\accountrepositories\\sqltransferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA20BF21-EC6F-47F5-A9D1-F7B976B41D97}|HomeBudget.API\\HomeBudget.API.csproj|solutionrelative:homebudget.api\\repositories\\accountrepositories\\sqltransferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +31,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SQLUserTypesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Repositories\\SQLUserTypesRepository.cs",
-              "RelativeDocumentMoniker": "HomeBudget.API\\Repositories\\SQLUserTypesRepository.cs",
-              "ToolTip": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Repositories\\SQLUserTypesRepository.cs",
-              "RelativeToolTip": "HomeBudget.API\\Repositories\\SQLUserTypesRepository.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwDUAAAAvAAAAAAAAAA==",
+              "Title": "SQLDebtRepository.cs",
+              "DocumentMoniker": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Repositories\\DebtsRepositories\\SQLDebtRepository.cs",
+              "RelativeDocumentMoniker": "HomeBudget.API\\Repositories\\DebtsRepositories\\SQLDebtRepository.cs",
+              "ToolTip": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Repositories\\DebtsRepositories\\SQLDebtRepository.cs",
+              "RelativeToolTip": "HomeBudget.API\\Repositories\\DebtsRepositories\\SQLDebtRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T10:58:08.681Z",
+              "WhenOpened": "2025-05-03T08:30:28.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserTypesRepositoryTests.cs",
-              "DocumentMoniker": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\Repository.Tests\\UserTypesRepositoryTests.cs",
-              "RelativeDocumentMoniker": "Repository.Tests\\UserTypesRepositoryTests.cs",
-              "ToolTip": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\Repository.Tests\\UserTypesRepositoryTests.cs",
-              "RelativeToolTip": "Repository.Tests\\UserTypesRepositoryTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UserTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Controllers\\UserTypeController.cs",
+              "RelativeDocumentMoniker": "HomeBudget.API\\Controllers\\UserTypeController.cs",
+              "ToolTip": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Controllers\\UserTypeController.cs",
+              "RelativeToolTip": "HomeBudget.API\\Controllers\\UserTypeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T08:35:44.63Z",
+              "WhenOpened": "2025-05-03T08:13:05.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Repositories\\AccountRepositories\\SQLAccountRepository.cs",
+              "RelativeDocumentMoniker": "HomeBudget.API\\Repositories\\AccountRepositories\\SQLAccountRepository.cs",
+              "ToolTip": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Repositories\\AccountRepositories\\SQLAccountRepository.cs",
+              "RelativeToolTip": "HomeBudget.API\\Repositories\\AccountRepositories\\SQLAccountRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwFwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:17:38.504Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SQlTransferRepository.cs",
+              "DocumentMoniker": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Repositories\\AccountRepositories\\SQlTransferRepository.cs",
+              "RelativeDocumentMoniker": "HomeBudget.API\\Repositories\\AccountRepositories\\SQlTransferRepository.cs",
+              "ToolTip": "C:\\Users\\wisni\\OneDrive\\Desktop\\Inzynierski\\HomeBudget\\HomeBudget\\HomeBudget.API\\Repositories\\AccountRepositories\\SQlTransferRepository.cs",
+              "RelativeToolTip": "HomeBudget.API\\Repositories\\AccountRepositories\\SQlTransferRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:17:35.524Z"
             }
           ]
         }
