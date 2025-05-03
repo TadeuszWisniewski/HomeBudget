@@ -25,6 +25,6 @@ namespace HomeBudget.API.Models.Domain.Users
         public List<Debt> Debts { get; } = [];
         public Guid? CoOperatorId { get; set; }
         public User? CoOperator { get; set; }
-        public ICollection<User> Cooperators { get; set; }
+        public ICollection<User>? Cooperators { get; set; }
     }
 }
